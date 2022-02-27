@@ -8,10 +8,18 @@
 import SwiftUI
 
 struct ToggleButton: View {
-@State var buttonText = "Button"
+    @State private var buttonText = "Button"
+    @State private var isOpen = false
+
     var body: some View {
         Button(action: {
-            buttonText = "Button Tapped"
+            if (self.isOpen) {
+                buttonText = "Button"
+                self.isOpen = false
+            } else {
+                buttonText = "Button Tapped"
+                self.isOpen = true
+            }
         }){
             Text(buttonText)
                 .font(.largeTitle)
