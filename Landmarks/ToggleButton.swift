@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct ToggleButton: View {
-    @State private var buttonText = "Button"
-    @State private var isOpen = false
+    @Binding var buttonText: String
+    @Binding var isOpen: Bool
 
     var body: some View {
         Button(action: {
@@ -29,6 +29,6 @@ struct ToggleButton: View {
 
 struct ToggleButton_Previews: PreviewProvider {
     static var previews: some View {
-        ToggleButton()
+        ToggleButton(buttonText: .constant("Button"), isOpen: .constant(false))
     }
 }

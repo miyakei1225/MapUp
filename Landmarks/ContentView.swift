@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var buttonText: String = "Button"
+    @State private var isOpen: Bool = false
     var body: some View {
         VStack {
             MapView()
@@ -35,7 +37,8 @@ struct ContentView: View {
                 Text("About this shop")
                     .font(.title2)
                 Text("深夜2時に食うのがいっちゃん美味い。")
-                ToggleButton()
+
+                ToggleButton(buttonText: $buttonText, isOpen: $isOpen)
             }
             .offset(y: -180)
             .padding()
