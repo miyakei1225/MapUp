@@ -35,9 +35,11 @@ struct ContentView: View {
                 Text("About this shop")
                     .font(.title2)
                 Text("深夜2時に食うのがいっちゃん美味い。")
+                ToggleButton()
             }
             .offset(y: -180)
             .padding()
+
             Spacer()
         }
     }

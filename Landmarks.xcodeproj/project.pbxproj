@@ -15,6 +15,7 @@
 		C724E59F27C60947007ECF1C /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C724E59E27C60947007ECF1C /* LandmarksUITests.swift */; };
 		C724E5A127C60947007ECF1C /* LandmarksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C724E5A027C60947007ECF1C /* LandmarksUITestsLaunchTests.swift */; };
 		C724E5B027C73D18007ECF1C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C724E5AF27C73D18007ECF1C /* MapView.swift */; };
+		C7E7144C27CBA06D00949F5F /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E7144B27CBA06D00949F5F /* ToggleButton.swift */; };
 		C7F3A45F27C74AD300C091F2 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F3A45E27C74AD300C091F2 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,7 @@
 		C724E59E27C60947007ECF1C /* LandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITests.swift; sourceTree = "<group>"; };
 		C724E5A027C60947007ECF1C /* LandmarksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C724E5AF27C73D18007ECF1C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		C7E7144B27CBA06D00949F5F /* ToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
 		C7F3A45E27C74AD300C091F2 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,6 +105,7 @@
 				C7F3A45E27C74AD300C091F2 /* CircleImage.swift */,
 				C724E58727C60947007ECF1C /* Assets.xcassets */,
 				C724E5AF27C73D18007ECF1C /* MapView.swift */,
+				C7E7144B27CBA06D00949F5F /* ToggleButton.swift */,
 				C724E58927C60947007ECF1C /* Preview Content */,
 			);
 			path = Landmarks;
@@ -266,6 +269,7 @@
 				C724E58627C60945007ECF1C /* ContentView.swift in Sources */,
 				C7F3A45F27C74AD300C091F2 /* CircleImage.swift in Sources */,
 				C724E5B027C73D18007ECF1C /* MapView.swift in Sources */,
+				C7E7144C27CBA06D00949F5F /* ToggleButton.swift in Sources */,
 				C724E58427C60945007ECF1C /* LandmarksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
